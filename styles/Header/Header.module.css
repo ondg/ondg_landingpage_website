@@ -1,0 +1,208 @@
+.header {
+  height: 600px;
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    height: auto;
+    margin-top: 4rem;
+  }
+}
+
+.header .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.header .hero .grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "slogan hero_image" "advertise hero_image";
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .grid {
+        grid-template-areas: "advertise" "hero_image" "slogan";
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.header .hero .slogan {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: slogan;
+  width: 100%;
+  max-width: 40rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .slogan {
+    text-align: center;
+  }
+}
+
+.header .hero .slogan h1 {
+  color: var(--primary-color);
+  font-size: var(--header-title);
+  max-width: 40rem;
+}
+
+.header .hero .slogan p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: var(--black-color);
+}
+
+.header .hero .advertise {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: advertise;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .advertise {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .advertise .notify {
+    margin-top: 3rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.header .hero .advertise .notify p {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .advertise .notify p {
+    text-align: center;
+  }
+}
+
+.header .hero .advertise .notify .email_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 16px;
+  max-width: 40rem;
+  width: 28rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .advertise .notify .email_input {
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.header .hero .advertise .notify .email_input .input {
+  width: 20rem;
+}
+
+.header .hero .advertise .notify .email_input .input input {
+  border-radius: 50px;
+  padding-right: 3.5rem;
+  font-size: 0.95rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .advertise .notify .email_input button {
+    width: 8rem;
+  }
+}
+
+.header .hero .advertise .notify .email_input .email_icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 13px;
+}
+
+.header .hero .advertise .store_badges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 16px;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .advertise .store_badges {
+    margin-top: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.header .hero .advertise .store_badges .badge {
+  width: 12rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.header .hero .advertise .store_badges .badge img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header .hero .hero_image {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: hero_image;
+  width: 280px;
+  margin-right: 15rem;
+  -webkit-filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.5));
+}
+
+@media only screen and (max-width: 992px) {
+  .header .hero .hero_image {
+    margin: 4rem auto;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

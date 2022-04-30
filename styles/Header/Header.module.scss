@@ -1,0 +1,152 @@
+.header {
+  height: 600px;
+
+  @media only screen and (max-width: 992px) {
+    height: auto;
+    margin-top: 4rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .grid {
+      display: grid;
+      grid-template-areas:
+        "slogan hero_image"
+        "advertise hero_image";
+      justify-content: space-between;
+
+      @media only screen and (max-width: 992px) {
+        grid-template-areas:
+          "advertise"
+          "hero_image"
+          "slogan";
+        justify-content: center;
+      }
+    }
+
+    .slogan {
+      grid-area: slogan;
+      width: 100%;
+      max-width: 40rem;
+
+      @media only screen and (max-width: 992px) {
+        text-align: center;
+      }
+
+      h1 {
+        color: var(--primary-color);
+        font-size: var(--header-title);
+        max-width: 40rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        color: var(--black-color);
+      }
+    }
+
+    .advertise {
+      grid-area: advertise;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (max-width: 992px) {
+        margin-top: 0;
+        flex-direction: column-reverse;
+      }
+      // width: 163px;
+      // height: 163px;
+
+      .notify {
+        @media only screen and (max-width: 992px) {
+          margin-top: 3rem;
+          align-self: center;
+        }
+        p {
+          font-size: 1.2rem;
+          color: var(--primary-color);
+
+          @media only screen and (max-width: 992px) {
+            text-align: center;
+          }
+        }
+
+        .email_input {
+          display: flex;
+          grid-gap: 16px;
+          max-width: 40rem;
+          width: 28rem;
+          margin-top: 1rem;
+
+          @media only screen and (max-width: 992px) {
+            width: auto;
+            align-items: center;
+            flex-direction: column;
+          }
+
+          .input {
+            width: 20rem;
+
+            input {
+              border-radius: 50px;
+              padding-right: 3.5rem;
+              font-size: 0.95rem;
+            }
+          }
+
+          button {
+            @media only screen and (max-width: 992px) {
+              width: 8rem;
+            }
+          }
+
+          .email_icon {
+            position: absolute;
+            right: 1.5rem;
+            top: 13px;
+          }
+        }
+      }
+
+      .store_badges {
+        display: flex;
+        grid-gap: 16px;
+        margin-top: 4rem;
+
+        @media only screen and (max-width: 992px) {
+          margin-top: 0;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .badge {
+          width: 12rem;
+          height: auto;
+          cursor: pointer;
+
+          img {
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .hero_image {
+      grid-area: hero_image;
+      width: 280px;
+      margin-right: 15rem;
+      filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.5));
+
+      @media only screen and (max-width: 992px) {
+        margin: 4rem auto;
+      }
+    }
+  }
+}

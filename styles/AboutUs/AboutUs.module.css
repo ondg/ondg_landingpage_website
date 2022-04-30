@@ -1,0 +1,29 @@
+.aboutUs .text h1 {
+  color: var(--primary-color);
+  font-size: var(--header-title);
+  padding-bottom: 1rem;
+}
+
+.aboutUs .text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: var(--black-color);
+}
+
+.aboutUs .text .delivered_text {
+  color: var(--primary-color);
+  margin-top: 4rem;
+}
+
+.aboutUs .delivery_image {
+  width: 38rem;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .aboutUs .delivery_image {
+    width: auto;
+    margin-left: unset;
+  }
+}
+/*# sourceMappingURL=AboutUs.module.css.map */
