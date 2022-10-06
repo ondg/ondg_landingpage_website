@@ -1,0 +1,4 @@
+nextamplified:
+    component: "@sls-next/serverless-component"
+    inputs:
+        domain: "ondg.co.uk"
