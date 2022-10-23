@@ -11,7 +11,7 @@ function AboutUs() {
                 <div className={styles.text}>
                   <h1>About us</h1>
                   <p>
-                    Ondg is an a grocery delivery app that is on a mission to
+                    Ondg is a grocery delivery app that is on a mission to
                     disrupt the delivery industry by being UK's #1
                     customer centric on demand delivery app.
                   </p>
