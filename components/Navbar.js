@@ -27,7 +27,7 @@ function Navbar() {
               </ul>
             </div>
 
-            {/* HAMBURGER */}
+            {/* HAMBURGER MENU */}
             <div className={styles.hamburger} onClick={() => setOpenNav(!openNav)}>
               <input className={styles.checkbox} type="checkbox" />
               <div className={openNav ? `${styles.hamburger_lines} ${styles.active}` : `${styles.hamburger_lines}`}>

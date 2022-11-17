@@ -51,4 +51,26 @@
   margin-top: 2rem;
   text-align: center;
 }
+
+.footerPoliciesContainer {
+  display: flex;
+  position: relative;
+  margin-top: 1rem;
+}
+.footerPrivacyPolicy {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footerTermsConditions {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footerCookiePolicy {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footerRefundsPolicy {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 /*# sourceMappingURL=Footer.module.css.map */
