@@ -18,7 +18,7 @@ function Header() {
     e.preventDefault();
     setData({ ...data, error: null, loading: true });
     if (!email) {
-      setData({ ...data, error: "Email are Requried" });
+      setData({ ...data, error: "Email address is required" });
     }
     if (email) {
       try {
