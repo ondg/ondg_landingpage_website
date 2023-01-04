@@ -1,6 +1,6 @@
 import styles from "../styles/AboutUs/AboutUs.module.css";
 
-function PrivacyPolicy() {
+function RefundPolicy() {
     return (
         <>
         <main className="main">

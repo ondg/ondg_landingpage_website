@@ -21,7 +21,7 @@ function ContactUs() {
     e.preventDefault();
     setData({ ...data, error: null, loading: true });
     if (!name || !email || !message) {
-      setData({ ...data, error: "All Fleids are Requried" });
+      setData({ ...data, error: "All fields are required" });
     }
     if (name && email && message) {
       try {

@@ -43,9 +43,9 @@ function Footer() {
             <div className={styles.footerCookiePolicy}>
               <Link  href="/cookies-policy">Cookies Policy</Link>
             </div>
-            {/* <div className={styles.footerRefundsPolicy}>
-              <a href="#">Refunds Policy</a>
-            </div> */}
+            <div className={styles.footerRefundsPolicy}>
+              <Link href="/refund-policy">Refund Policy</Link>
+            </div>
 
           </div>
           <div className={styles.copyright}>

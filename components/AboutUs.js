@@ -13,11 +13,17 @@ function AboutUs() {
                   <p>
                     Ondg is a grocery delivery app that is on a mission to be UK's #1 ethnic grocery delivery platform.
                   </p>
+
+                  <p>
+                    We help ethnic stores with no online presence create an online store on our platform and sell products online.
+                  </p>
+
                   <p>
                     With Ondg you can order groceries and household items from
                     all your local and favourite supermarkets, mini markets and
                     convenient stores (corner shops).
                   </p>
+               
                   <p className={styles.delivered_text}>
                       See it, order it and get it delivered!
                   </p>
