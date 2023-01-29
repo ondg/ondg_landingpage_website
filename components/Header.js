@@ -63,7 +63,7 @@ function Header() {
 
             <div className={styles.advertise}>
               <div className={styles.notify}>
-              <p>Want to be notified on launch?</p>
+              <p>Want to be part of the mission?</p>
               <form className={styles.email_input}>
                 <div className={`input ${styles.input}`}>
                   <input placeholder="What's your email?" type="email" name="email" value={email} onChange={handleChange}/>

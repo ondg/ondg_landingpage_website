@@ -56,7 +56,7 @@ function Footer() {
 
           </div>
           <div className={styles.copyright}>
-            <p>Copyright &copy; 2022 ONDG LTD. All Rights Reserved.</p>
+            <p>Copyright &copy; 2023 ONDG. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
