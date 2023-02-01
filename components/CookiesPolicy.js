@@ -143,7 +143,7 @@ function CookiesPolicy() {
                     </p>
                     <br />
                     <p>
-                    Last updated: 14th November 2022
+                    Last updated: 1st February 2023.
                     </p>
 
                     </div>
