@@ -109,7 +109,7 @@ function TermsConditionsPolicy() {
                 We may revise these terms of use at any time by amending this page. You are expected to check this page from time to time to take notice of any changes we make, as they are binding on you.
                 </p>
                 <p>
-                Last Updated 5th September 2022.
+                Last updated: 1st February 2023.
                 </p>
                     </div>
                 </div>

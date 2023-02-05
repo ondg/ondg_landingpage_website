@@ -69,7 +69,7 @@ function PrivacyPolicy() {
 
                 <p>
                 12. Changes to our Privacy Policy 
-                Any changes to our privacy policy will be posted to the Sites and, where appropriate, we may notify you of the changes for example by email or push notification. This privacy policy was last updated: 05/09/2022
+                Any changes to our privacy policy will be posted to the Sites and, where appropriate, we may notify you of the changes for example by email or push notification. This privacy policy was last updated: 01/02/2023
                 </p>
 
                 <p>
