@@ -16,6 +16,7 @@
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
+    "@serverless/cli": "^1.6.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.5"
   }

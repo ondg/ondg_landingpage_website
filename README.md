@@ -32,3 +32,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Deploy to AWS 
+
+Add the Serverless Framework CLI to your project:
+```bash
+yarn add -D @serverless/cli
+```
+
+To deploy to AWS, you need to have an AWS account and have the AWS CLI installed and configured. You can find more information on how to do that here: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+
+```bash
+yarn components-v1
+```
