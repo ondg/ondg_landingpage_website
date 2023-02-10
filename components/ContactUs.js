@@ -67,7 +67,7 @@ function ContactUs() {
             <div className="row direction justify-content-between">
               <div className="col-lg-4">
                 <div className={styles.contact_form}>
-                  <h1>Let's talk</h1>
+                  <h1>Let's connect</h1>
                   <p>Ask us anything or just say hi...</p>
                   <form className={styles.form}>
                     <div className={`input ${styles.form_input}`}>
