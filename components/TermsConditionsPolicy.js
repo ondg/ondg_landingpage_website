@@ -9,7 +9,7 @@ function TermsConditionsPolicy() {
                 <div className={styles.text}>
                 <h1>Terms & Conditions Policy</h1>
                 <p>
-                Welcome, and thanks for using Ondg! When you use the services provided on our site, you're agreeing to our terms, so please take a few minutes to read over the terms of use ("Terms of Use") below. Please note, by using Ondg you are entering into a legally binding agreement and agree to all of the terms below. These Terms of Use set out the legally binding terms and conditions for your use of the website at www.ondg.co.uk (the Ondg Website) and the iOS and Android Application provided by Ondg. We amend these Terms of Use from time to time. They were last updated on 5th September 2022. If you have any questions, please contact support@ondg.co.uk.
+                Welcome, and thanks for using Ondg! When you use the services provided on our site, you're agreeing to our terms, so please take a few minutes to read over the terms of use ("Terms of Use") below. Please note, by using Ondg you are entering into a legally binding agreement and agree to all of the terms below. These Terms of Use set out the legally binding terms and conditions for your use of the website at www.ondg.co.uk (the Ondg Website) and the iOS and Android Application provided by Ondg. We amend these Terms of Use from time to time. They were last updated on 1st February 2023. If you have any questions, please contact support@ondg.co.uk.
                 </p>
 
                 <br /> 
