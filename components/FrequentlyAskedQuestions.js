@@ -25,7 +25,7 @@ function FrequentlyAskedQuestions() {
                 2. Based on your address, your local stores will appear. Select the store you want to shop at to start exploring it's products (if the product you're looking for doesn't appear in the catalog, type it into the search bar).
                 </p>
                 <p>
-                3. Once you've selected your products, click on your cart to view your order details and total. Then press go to 'Go to checkout' button. 
+                3. Once you've added your products to cart, press on the cart to view your order details and total. Then press go to 'Go to checkout' button. 
                 </p>
                 <p>
                 4. Press 'Place an order' button. 
