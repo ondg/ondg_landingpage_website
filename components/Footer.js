@@ -53,10 +53,13 @@ function Footer() {
             <div className={styles.footerRefundsPolicy}>
               <Link href="/refund-policy">Refund Policy</Link>
             </div>
+            <div className={styles.footerFAQs}>
+              <Link href="/faq">FAQs</Link>
+            </div>
 
           </div>
           <div className={styles.copyright}>
-            <p>Copyright &copy; 2023 ONDG. All Rights Reserved.</p>
+            <p>&copy; 2023 ONDG. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
