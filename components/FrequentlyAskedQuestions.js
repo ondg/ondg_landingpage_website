@@ -44,7 +44,7 @@ function FrequentlyAskedQuestions() {
                     How much is the delivery fee?
                 </h2>
                 <p>
-                    The delivery is fixed at 99p.
+                    The delivery fee is fixed at 99p.
                 </p>
                 <br />
                 <br />
