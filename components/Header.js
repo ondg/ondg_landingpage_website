@@ -55,7 +55,8 @@ function Header() {
         <div className={styles.hero}>
           <div className={` container ${styles.grid}`}>
             <div className={styles.slogan}>
-              <h1>Groceries Household items</h1>
+              {/* <h1>Groceries Takeaway</h1> */}
+              <h1>Ethnic Groceries & Takeaway</h1>
               <p>
               Delivering joy, saving customers money and time.
               </p>
@@ -63,10 +64,10 @@ function Header() {
 
             <div className={styles.advertise}>
               <div className={styles.notify}>
-              <p>Want to be part of the mission?</p>
+              <p>Want be an Ondgenie?</p>
               <form className={styles.email_input}>
                 <div className={`input ${styles.input}`}>
-                  <input placeholder="What's your email?" type="email" name="email" value={email} onChange={handleChange}/>
+                  <input placeholder="Enter email address" type="email" name="email" value={email} onChange={handleChange}/>
                   <IoMailOutline size={18} color="var(--black-color)" className={styles.email_icon} />
                   
                 </div>
