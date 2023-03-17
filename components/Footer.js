@@ -1,5 +1,5 @@
 import styles from "../styles/Footer/Footer.module.css";
-import { FiTwitter, FiInstagram, FiFacebook } from "react-icons/fi";
+import { FiTwitter, FiInstagram, FiFacebook, FiYoutube } from "react-icons/fi";
 import { IoLogoTiktok } from "react-icons/io5";
 import Link from 'next/link'
 
@@ -35,6 +35,13 @@ function Footer() {
                 size={18}
                 className={` ${styles.svg_icon} center_this`}
                 onClick={() => window.open("https://www.tiktok.com/@ondguk")}
+              />
+            </div>
+            <div className={styles.icon}>
+              <FiYoutube
+                size={18}
+                className={` ${styles.svg_icon} center_this`}
+                onClick={() => window.open("https://www.youtube.com/@ondg")}
               />
             </div>
           </div>
