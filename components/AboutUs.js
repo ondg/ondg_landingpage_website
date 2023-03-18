@@ -11,7 +11,7 @@ function AboutUs() {
                 <div className={styles.text}>
                   <h1>About us</h1>
                   <p>
-                    Ondg is an on-demand delivery platform that is on a mission to be the UK's #1 ethnic delivery platform.
+                    Ondg is an on-demand ethnic delivery platform that is on a mission to be the UK's #1 ethnic delivery platform.
                   </p>
 
                   <p>
