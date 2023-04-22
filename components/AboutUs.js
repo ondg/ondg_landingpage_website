@@ -11,7 +11,7 @@ function AboutUs() {
                 <div className={styles.text}>
                   <h1>About us</h1>
                   <p>
-                    Ondg is an on-demand ethnic delivery platform that is on a mission to be the UK's #1 ethnic delivery platform.
+                    Ondg is a purpose-led and community driven on-demand ethnic delivery platform that is on a mission to be the UK's #1 ethnic delivery platform.
                   </p>
 
                   <p>
@@ -19,11 +19,11 @@ function AboutUs() {
                   </p>
 
                   <p>
-                    With Ondg, you can order groceries, takeaway, and household items from all your local and favourite restaurants, supermarkets, mini markets and convenient stores (corner shops).
+                    With Ondg, you can order ethnic groceries, takeaway, and household items from all your local and favourite restaurants, supermarkets, mini markets and convenient stores (corner shops).
                   </p>
                
                   <p className={styles.delivered_text}>
-                      See it, order it and get it delivered!
+                     Delivering you joy, saving you money and time!
                   </p>
                 </div>
               </div>

@@ -13,8 +13,8 @@ function Document() {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossOrigin="anonymous"
         />
-        <meta name="description" content="Ondg - ethnic grocery app delivering joy, saving you money and time."></meta>
-        <meta name="keywords" content="Grocery, Grocery Delivery App, Ethnic Grocery Delivery Website, Ethnic Grocery, On-Demand Delivery App, On-Demand Grocery Delivery App, Ethnic Grocery Delivery App, UK Ethnic Grocery App, UK number 1 Ethnic Grocery App, UK's number 1 Ethnic Grocery App, UK's number 1 Ethnic Grocery Delivery App, Ethnic Marketplace, Ethnic Grocery Market"></meta>
+        <meta name="description" content="Ondg - ethnic delivery app delivering joy, saving you money and time."></meta>
+        <meta name="keywords" content="Ethnic Food , Ethnic Delivery App, Ethnic Food Delivery Website, Ethnic Takeaway, On-Demand Delivery App, On-Demand Food Delivery App, Ethnic Food Delivery App, UK Ethnic Food App, UK number 1 Ethnic Food App, UK's number 1 Ethnic Food App, UK's number 1 Ethnic Food Delivery App, Ethnic Marketplace, Ethnic Food Market"></meta>
       </Head>
       <body>
         <Main />

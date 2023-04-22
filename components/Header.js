@@ -2,6 +2,7 @@ import styles from "../styles/Header/Header.module.css";
 import { IoMailOutline } from "react-icons/io5";
 import { useState } from "react";
 
+
 function Header() {
   const [data, setData] = useState({
     email: "",
@@ -91,12 +92,13 @@ function Header() {
               </div>
 
               <div className={styles.store_badges}>
-                  <div className={styles.badge}>
-                      <img src="/images/play_store_badge.svg" alt="play_store_badge"/>
-                  </div>
-                  <div className={styles.badge} style={{padding:"5px"}}>
-                      <img src="/images/app_store_badge.svg" alt="app_store_badge"/>
-                  </div>
+                    <div className={styles.badge} onClick={() => window.open("https://play.google.com/store/apps/details?id=com.odng.ondg", '_blank')}>
+                          <img src="/images/play_store_badge.svg" alt="play_store_badge"/> 
+                    </div>
+                  
+                    <div className={styles.badge} style={{padding:"5px"}} onClick={() => window.open("https://apps.apple.com/gb/app/ondg/id1671853480", '_blank')}>
+                        <img src="/images/app_store_badge.svg" alt="app_store_badge"/>
+                    </div>
               </div>
             </div>
 
