@@ -17,6 +17,13 @@ function Footer() {
               />
             </div>
             <div className={styles.icon}>
+              <IoLogoTiktok
+                size={18}
+                className={` ${styles.svg_icon} center_this`}
+                onClick={() => window.open("https://www.tiktok.com/@ondguk")}
+              />
+            </div>
+            <div className={styles.icon}>
               <FiFacebook
                 size={18}
                 className={` ${styles.svg_icon} center_this`}
@@ -28,13 +35,6 @@ function Footer() {
                 size={18}
                 className={` ${styles.svg_icon} center_this`}
                 onClick={() => window.open("https://twitter.com/ondguk")}
-              />
-            </div>
-            <div className={styles.icon}>
-              <IoLogoTiktok
-                size={18}
-                className={` ${styles.svg_icon} center_this`}
-                onClick={() => window.open("https://www.tiktok.com/@ondguk")}
               />
             </div>
             <div className={styles.icon}>
@@ -50,7 +50,6 @@ function Footer() {
             <div className={styles.footerPrivacyPolicy}>
               <Link  href="/privacy-policy">Privacy Policy</Link>
             </div>
-
             <div className={styles.footerTermsConditions}>
               <Link  href="/termsconditions">Terms & Conditions</Link>
             </div>

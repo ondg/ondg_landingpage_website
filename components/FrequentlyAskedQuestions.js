@@ -39,7 +39,6 @@ function FrequentlyAskedQuestions() {
                 </p>
                 <br />
                 <br />
-
                 <h2>
                     How much is the delivery fee?
                 </h2>
@@ -48,7 +47,6 @@ function FrequentlyAskedQuestions() {
                 </p>
                 <br />
                 <br />
-
                 <h2>
                     How much is the service fee?
                 </h2>
@@ -57,7 +55,6 @@ function FrequentlyAskedQuestions() {
                 </p>
                 <br />
                 <br />
-
                 <h2>
                     Is there a minimum spend?
                 </h2>
@@ -66,7 +63,6 @@ function FrequentlyAskedQuestions() {
                 </p>
                 <br />
                 <br />
-
                 <h2>
                     How does alochol deliveries work?
                 </h2>
@@ -75,7 +71,6 @@ function FrequentlyAskedQuestions() {
                 </p>
                 <br />
                 <br />
-
                 <h2>
                     What are your refunds policy?
                 </h2>
@@ -85,15 +80,12 @@ function FrequentlyAskedQuestions() {
                 </p>
                 <br />
                 <br />
-
                 <h2>
                     How are refunds managed?
                 </h2>
                 <p>
                     To request a refund, you can email refunds@ondg.co.uk. A member of our customer service team will send an email confirming that your refund has been processed. If your refund has been approved, the refund will be paid into the payment card associated with your account. Please allow 5  - 10 working days for the payment to appear on your bank statement.
                 </p>
-
-
                     </div>
                 </div>
             </div>

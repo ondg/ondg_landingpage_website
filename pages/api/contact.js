@@ -21,7 +21,7 @@ export default function (req, res) {
     body: JSON.stringify(params)
   };
 
-  // Change it to use support@ondg.co.uk
+  // Change it to use support@ondg.co.uk instead of ondguk@gmail.com
   fetch('https://api.emailjs.com/api/v1.0/email/send', options)
   .then((httpResponse) => {
     if (httpResponse.ok) {

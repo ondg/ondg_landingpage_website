@@ -40,7 +40,6 @@ function Header() {
               error: null,
               loading: false,
             });
-           
           }
         })
         
@@ -56,7 +55,6 @@ function Header() {
         <div className={styles.hero}>
           <div className={` container ${styles.grid}`}>
             <div className={styles.slogan}>
-              {/* <h1>Groceries Takeaway</h1> */}
               <h1>Ethnic Groceries & Takeaway</h1>
               <p>
               Delivering joy, saving customers money and time.
@@ -70,7 +68,6 @@ function Header() {
                 <div className={`input ${styles.input}`}>
                   <input placeholder="Enter email address" type="email" name="email" value={email} onChange={handleChange}/>
                   <IoMailOutline size={18} color="var(--black-color)" className={styles.email_icon} />
-                  
                 </div>
                 
                 <button className="button" type="submit" disabled={loading} onClick={(e)=> handleSubmit(e)}>{loading ? "Sending..." : "Send"}</button>
@@ -102,6 +99,7 @@ function Header() {
               </div>
             </div>
 
+          {/* Change iphone Ondg image to a the one on the app store  */}
             <div className={styles.hero_image}>
                 <div>
                     <img src="/images/ondg_iphone_ss.png"/>
